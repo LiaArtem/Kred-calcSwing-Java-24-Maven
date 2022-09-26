@@ -1,0 +1,1555 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="&#x41a;&#x440;&#x435;&#x434;&#x438;&#x442;&#x43d;&#x44b;&#x439; &#x43a;&#x430;&#x43b;&#x44c;&#x43a;&#x443;&#x43b;&#x44f;&#x442;&#x43e;&#x440;"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowOpened" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowOpened"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jScrollPane1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="type_rasch" min="-2" pref="409" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jPanel10" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="type_rasch" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel10" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder justification="1" title="&#x423;&#x441;&#x43b;&#x43e;&#x432;&#x438;&#x44f; &#x43a;&#x440;&#x435;&#x434;&#x438;&#x442;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x44f;"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+              <Component id="jPanel3" alignment="0" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                  <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="type_proc" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                  <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="type_annuitet" min="-2" pref="91" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Component id="jPanel4" max="32767" attributes="0"/>
+              <Component id="jPanel_rasrochka" max="32767" attributes="0"/>
+              <Component id="jPanel_rasrochka1" max="32767" attributes="0"/>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="check_recalc" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Component id="button_recalc" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="proc_perv_vznos" min="-2" pref="86" max="-2" attributes="0"/>
+                                      <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="curr_code" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="summa" min="-2" pref="86" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="kurs" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="date_cred" alignment="1" min="-2" pref="86" max="-2" attributes="0"/>
+                              <Component id="summa_ekv" alignment="1" min="-2" pref="86" max="-2" attributes="0"/>
+                              <Component id="perv_vznos" alignment="1" min="-2" pref="86" max="-2" attributes="0"/>
+                              <Component id="sum_kred" alignment="1" min="-2" pref="86" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="date_cred" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="curr_code" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="summa" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="kurs" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="summa_ekv" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="proc_perv_vznos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="perv_vznos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="button_recalc" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="sum_kred" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="check_recalc" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                  <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="type_proc" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="type_annuitet" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel_rasrochka" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel_rasrochka1" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x414;&#x430;&#x442;&#x430; &#x43e;&#x444;&#x43e;&#x440;&#x43c;&#x43b;&#x435;&#x43d;&#x438;&#x44f; &#x43a;&#x440;&#x435;&#x434;&#x438;&#x442;&#x430;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="date_cred">
+          <Properties>
+            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+              <Format subtype="0" type="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x421;&#x442;&#x43e;&#x438;&#x43c;&#x43e;&#x441;&#x442;&#x44c;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="curr_code">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="UAH"/>
+                <StringItem index="1" value="USD"/>
+                <StringItem index="2" value="EUR"/>
+                <StringItem index="3" value="GBP"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="curr_codeActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="summa">
+          <Properties>
+            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+              <Format format="#,##0.00" subtype="-1" type="0"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="kurs">
+          <Properties>
+            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+              <Format format="#,##0.0000" subtype="-1" type="0"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="summa_ekv">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+              <Format format="#,##0.00" subtype="-1" type="0"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x41f;&#x435;&#x440;&#x432;&#x43e;&#x43d;&#x430;&#x447;&#x430;&#x43b;&#x44c;&#x43d;&#x44b;&#x439; &#x432;&#x437;&#x43d;&#x43e;&#x441;,  &#x432; %"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="proc_perv_vznos">
+          <Properties>
+            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+              <Format format="#,##0.00" subtype="-1" type="0"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="perv_vznos">
+          <Properties>
+            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+              <Format format="#,##0.00" subtype="-1" type="0"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="button_recalc">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x41f;&#x435;&#x440;&#x435;&#x441;&#x447;&#x438;&#x442;&#x430;&#x442;&#x44c;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_recalcActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="check_recalc">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x420;&#x430;&#x441;&#x447;&#x435;&#x442; &#x43f;&#x43e; &#x441;&#x443;&#x43c;&#x43c;&#x435;/% (&#x414;&#x430;/&#x41d;&#x435;&#x442;)"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="check_recalcActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x421;&#x443;&#x43c;&#x43c;&#x430; &#x43a;&#x440;&#x435;&#x434;&#x438;&#x442;&#x430;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="sum_kred">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+              <Format format="#,##0.00" subtype="-1" type="0"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder justification="1" title="&#x41b;&#x44c;&#x433;&#x43e;&#x442;&#x43d;&#x44b;&#x435; &#x443;&#x441;&#x43b;&#x43e;&#x432;&#x438;&#x44f;"/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="priv_proc_stavka" min="-2" pref="44" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="priv_srok_kred" min="-2" pref="46" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="priv_srok_kred_year" min="-2" pref="46" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="priv_proc_stavka" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="priv_srok_kred" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="priv_srok_kred_year" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="% &#x441;&#x442;&#x430;&#x432;&#x43a;&#x430;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="priv_proc_stavka">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#,##0.00" subtype="-1" type="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x41f;&#x435;&#x440;&#x438;&#x43e;&#x434; (&#x43c;&#x435;&#x441;.)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="priv_srok_kred">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#0" subtype="-1" type="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+              </Properties>
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="priv_srok_kredKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="priv_srok_kred_year">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#0.0" subtype="-1" type="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="(&#x43b;&#x435;&#x442;)"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder justification="1" title="&#x41e;&#x431;&#x44b;&#x447;&#x43d;&#x44b;&#x435; &#x443;&#x441;&#x43b;&#x43e;&#x432;&#x438;&#x44f;"/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="proc_stavka" min="-2" pref="44" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="srok_kred" min="-2" pref="46" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="srok_kred_year" min="-2" pref="46" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="proc_stavka" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="srok_kred" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="srok_kred_year" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="% &#x441;&#x442;&#x430;&#x432;&#x43a;&#x430;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="proc_stavka">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#,##0.00" subtype="-1" type="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x41f;&#x435;&#x440;&#x438;&#x43e;&#x434; (&#x43c;&#x435;&#x441;.)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="srok_kred">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#0" subtype="-1" type="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+              </Properties>
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="srok_kredKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="srok_kred_year">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#0.0" subtype="-1" type="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="(&#x43b;&#x435;&#x442;)"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x424;&#x43e;&#x440;&#x43c;&#x430; &#x43f;&#x43e;&#x433;&#x430;&#x448;&#x435;&#x43d;&#x438;&#x44f;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="type_proc">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="&#x43a;&#x43b;&#x430;&#x441;&#x441;&#x438;&#x43a;&#x430;"/>
+                <StringItem index="1" value="&#x430;&#x43d;&#x43d;&#x443;&#x438;&#x442;&#x435;&#x442;&#x43d;&#x430;&#x44f;"/>
+                <StringItem index="2" value="&#x440;&#x430;&#x441;&#x441;&#x440;&#x43e;&#x447;&#x43a;&#x430;"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="type_procActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel13">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x422;&#x438;&#x43f;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="type_annuitet">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="30/360"/>
+                <StringItem index="1" value="&#x444;&#x430;&#x43a;&#x442;/360"/>
+                <StringItem index="2" value="&#x444;&#x430;&#x43a;&#x442;/&#x444;&#x430;&#x43a;&#x442;"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder justification="1" title="&#x414;&#x43e;&#x441;&#x440;&#x43e;&#x447;&#x43d;&#x43e;&#x435; &#x43f;&#x43e;&#x433;&#x430;&#x448;&#x435;&#x43d;&#x438;&#x435;"/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="sum_plat" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel15" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="srok_kred_new" min="-2" pref="46" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="srok_kred_year_new" min="-2" pref="46" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sum_plat" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="srok_kred_new" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="srok_kred_year_new" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel14">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x421;&#x443;&#x43c;&#x43c;&#x430; &#x43f;&#x43b;&#x430;&#x442;&#x435;&#x436;&#x435;&#x439; &#x440;&#x443;&#x447;&#x43d;&#x430;&#x44f;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="sum_plat">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#,##0.00" subtype="-1" type="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="srok_kred_year_new">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#0.0" subtype="-1" type="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel15">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x41d;&#x43e;&#x432;&#x44b;&#x439; &#x441;&#x440;&#x43e;&#x43a; &#x43a;&#x440;&#x435;&#x434;&#x438;&#x442;&#x430; (&#x43c;&#x435;&#x441;.)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="srok_kred_new">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#0" subtype="-1" type="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+              </Properties>
+              <Events>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="srok_kred_newKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel16">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="(&#x43b;&#x435;&#x442;)"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel_rasrochka">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder justification="1" title="&#x420;&#x430;c&#x441;&#x440;&#x43e;&#x447;&#x43a;&#x430; &#x438;&#x437;&#x43c;&#x435;&#x43d;&#x435;&#x43d;&#x438;&#x435; &#x43a;&#x443;&#x440;&#x441;&#x430; USD"/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                          <Component id="kurs_start" min="-2" pref="43" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="kurs_year_0" min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="year_0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="kurs_year_1" min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="year_1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="kurs_year_2" min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="year_2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="kurs_year_3" min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="year_3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="kurs_year_4" min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="year_4" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="koef_otsech" min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="year_5" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="year_0" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="year_1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="year_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="year_3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="year_4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="year_5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="kurs_year_4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="kurs_year_3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="kurs_year_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="kurs_start" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="kurs_year_0" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="kurs_year_1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="koef_otsech" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel17">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x41d;&#x430;&#x447;. &#x43a;&#x443;&#x440;&#x441;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="kurs_start">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#,##0.00" subtype="-1" type="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="year_0">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="2018"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="kurs_year_0">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#,##0.00" subtype="-1" type="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="year_1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="2019"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="kurs_year_1">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#,##0.00" subtype="-1" type="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="year_2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="2020"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="kurs_year_2">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#,##0.00" subtype="-1" type="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="year_3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="2021"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="kurs_year_3">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#,##0.00" subtype="-1" type="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="kurs_year_4">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#,##0.00" subtype="-1" type="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="year_4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="2022"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="koef_otsech">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#,##0.00" subtype="-1" type="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="year_5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x41a;&#x43e;&#x435;&#x444;.&#x43e;&#x442;"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel_rasrochka1">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder justification="1" title="&#x414;&#x43e;&#x43f;&#x43e;&#x43b;&#x43d;&#x438;&#x442;&#x435;&#x43b;&#x44c;&#x43d;&#x44b;&#x435; &#x440;&#x430;&#x441;&#x445;&#x43e;&#x434;&#x44b;"/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jTabbedPane2" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="pereplata" min="-2" pref="156" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jTabbedPane2" min="-2" pref="167" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="pereplata" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JTabbedPane" name="jTabbedPane2">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="jPanel5">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="&#x418;&#x442;&#x43e;&#x433;&#x438;">
+                        <Property name="tabTitle" type="java.lang.String" value="&#x418;&#x442;&#x43e;&#x433;&#x438;"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="bank_itog" min="-2" pref="156" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="sum_dop_plat" min="-2" pref="156" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="strax_itog" min="-2" pref="156" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="notar_itog" min="-2" pref="156" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="rieltor_itog" min="-2" pref="156" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bank_itog" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="strax_itog" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="notar_itog" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="rieltor_itog" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel25" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="sum_dop_plat" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel26" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jLabel18">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#x411;&#x430;&#x43d;&#x43a;"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="bank_itog">
+                      <Properties>
+                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                          <Format format="#,##0.00" subtype="-1" type="0"/>
+                        </Property>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                        <Property name="text" type="java.lang.String" value="0,00"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="strax_itog">
+                      <Properties>
+                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                          <Format format="#,##0.00" subtype="-1" type="0"/>
+                        </Property>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                        <Property name="text" type="java.lang.String" value="0,00"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="notar_itog">
+                      <Properties>
+                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                          <Format format="#,##0.00" subtype="-1" type="0"/>
+                        </Property>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                        <Property name="text" type="java.lang.String" value="0,00"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="rieltor_itog">
+                      <Properties>
+                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                          <Format format="#,##0.00" subtype="-1" type="0"/>
+                        </Property>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                        <Property name="text" type="java.lang.String" value="0,00"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JFormattedTextField" name="sum_dop_plat">
+                      <Properties>
+                        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                          <Format format="#,##0.00" subtype="-1" type="0"/>
+                        </Property>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                        <Property name="text" type="java.lang.String" value="0,00"/>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Tahoma" size="11" style="1"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel23">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#x421;&#x442;&#x440;&#x430;&#x445;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x435;"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel24">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#x41e;&#x444;&#x43e;&#x440;&#x43c;&#x43b;&#x435;&#x43d;&#x438;&#x435;"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel25">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#x41f;&#x440;&#x43e;&#x447;&#x438;&#x435;"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel26">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Tahoma" size="12" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="&#x412;&#x441;&#x435;&#x433;&#x43e;"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jPanel6">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="&#x411;&#x430;&#x43d;&#x43a;">
+                        <Property name="tabTitle" type="java.lang.String" value="&#x411;&#x430;&#x43d;&#x43a;"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="bank_komiss_1_text" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="bank_komiss_1" min="-2" pref="156" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="bank_komiss_2_text" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace pref="15" max="32767" attributes="0"/>
+                                      <Component id="bank_komiss_2" min="-2" pref="156" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="bank_komiss_1_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bank_komiss_1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="bank_komiss_2_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bank_komiss_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="82" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="bank_komiss_1_text">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#x41a;&#x43e;&#x43c;&#x438;&#x441;&#x441;&#x438;&#x44f; &#x431;&#x430;&#x43d;&#x43a;&#x430; &#x437;&#x430; &#x43e;&#x431;&#x441;&#x43b;&#x443;&#x436;."/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="bank_komiss_2_text">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#x415;&#x436;&#x435;&#x43c;&#x435;&#x441;&#x44f;&#x447;&#x43d;&#x430;&#x44f; &#x43a;&#x43e;&#x43c;&#x438;&#x441;&#x441;&#x438;&#x44f; &#x431;&#x430;&#x43d;&#x43a;&#x430;"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="bank_komiss_1">
+                      <Properties>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="bank_komiss_2">
+                      <Properties>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jPanel7">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="&#x421;&#x442;&#x440;&#x430;&#x445;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x435;">
+                        <Property name="tabTitle" type="java.lang.String" value="&#x421;&#x442;&#x440;&#x430;&#x445;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x435;"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="stra_komiss_1_text" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="stra_komiss_1" min="-2" pref="156" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="stra_komiss_2_text" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace pref="19" max="32767" attributes="0"/>
+                                      <Component id="stra_komiss_2" min="-2" pref="156" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="stra_komiss_3_text" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="stra_komiss_3" min="-2" pref="156" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="stra_komiss_1_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="stra_komiss_1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="stra_komiss_2_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="stra_komiss_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="stra_komiss_3_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="stra_komiss_3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="56" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="stra_komiss_1_text">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#x421;&#x442;&#x440;&#x430;&#x445;. &#x43f;&#x440;&#x435;&#x434;&#x43c;&#x435;&#x442;&#x430; &#x438;&#x43f;&#x43e;&#x442;&#x435;&#x43a;&#x438;"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="stra_komiss_2_text">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#x414;&#x43e;&#x433;&#x43e;&#x432;&#x43e;&#x440; &#x441;&#x442;&#x440;&#x430;&#x445;&#x43e;&#x432;&#x430;&#x43d;&#x438;&#x44f; &#x436;&#x438;&#x437;&#x43d;&#x438;"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="stra_komiss_3_text">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#x421;&#x442;&#x440;&#x430;&#x445; &#x43e;&#x442; &#x43d;&#x435;&#x449;&#x430;&#x441;&#x43d;&#x43e;&#x433;&#x43e; &#x441;&#x43b;&#x443;&#x447;&#x430;&#x44f;"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="stra_komiss_1">
+                      <Properties>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="stra_komiss_3">
+                      <Properties>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="stra_komiss_2">
+                      <Properties>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jPanel8">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="&#x41e;&#x444;&#x43e;&#x440;&#x43c;&#x43b;&#x435;&#x43d;&#x438;&#x435;">
+                        <Property name="tabTitle" type="java.lang.String" value="&#x41e;&#x444;&#x43e;&#x440;&#x43c;&#x43b;&#x435;&#x43d;&#x438;&#x435;"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="nota_komiss_1_text" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="nota_komiss_1" min="-2" pref="157" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="nota_komiss_2_text" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                                      <Component id="nota_komiss_2" min="-2" pref="157" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="nota_komiss_5_text" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="nota_komiss_5" min="-2" pref="157" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="nota_komiss_3_text" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="nota_komiss_3" min="-2" pref="157" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="nota_komiss_4_text" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="nota_komiss_4" min="-2" pref="157" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="nota_komiss_1_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="nota_komiss_1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="nota_komiss_2_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="nota_komiss_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="nota_komiss_3_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="nota_komiss_3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="nota_komiss_4_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="nota_komiss_4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="nota_komiss_5_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="nota_komiss_5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="nota_komiss_1_text">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#x412;&#x43d;&#x435;&#x441;.&#x440;&#x435;&#x435;&#x441;&#x442;&#x440; &#x437;&#x430;&#x43b;&#x43e;&#x433;. &#x438;&#x43c;&#x443;&#x449;&#x435;&#x441;&#x442;&#x432;&#x430;"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="nota_komiss_2_text">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#x41e;&#x444;&#x43e;&#x440;&#x43c;&#x43b;&#x435;&#x43d;&#x438;&#x435; &#x434;&#x43e;&#x433;&#x43e;&#x432;&#x43e;&#x440;&#x430; &#x437;&#x430;&#x43b;&#x43e;&#x433;&#x430;"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="nota_komiss_3_text">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#x413;&#x43e;&#x441;&#x43f;&#x43e;&#x448;&#x43b;&#x438;&#x43d;&#x430;"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="nota_komiss_4_text">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#x41f;&#x435;&#x43d;&#x441;&#x438;&#x43e;&#x43d;&#x43d;&#x44b;&#x439; &#x444;&#x43e;&#x43d;&#x434;"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="nota_komiss_5_text">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#x41e;&#x444;&#x43e;&#x440;&#x43c; &#x434;&#x43e;&#x433;&#x43e;&#x432;. &#x43f;&#x43e;&#x43a;&#x443;&#x43f;&#x43a;&#x438;-&#x43f;&#x440;&#x43e;&#x434;&#x430;&#x436;"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="nota_komiss_2">
+                      <Properties>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="nota_komiss_1">
+                      <Properties>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="nota_komiss_3">
+                      <Properties>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="nota_komiss_4">
+                      <Properties>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="nota_komiss_5">
+                      <Properties>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jPanel9">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="&#x41f;&#x440;&#x43e;&#x447;&#x438;&#x435;">
+                        <Property name="tabTitle" type="java.lang.String" value="&#x41f;&#x440;&#x43e;&#x447;&#x438;&#x435;"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="riel_komiss_3_text" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="riel_komiss_3" min="-2" pref="158" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="riel_komiss_1_text" max="32767" attributes="0"/>
+                                          <Component id="riel_komiss_2_text" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="riel_komiss_2" alignment="1" min="-2" pref="158" max="-2" attributes="0"/>
+                                          <Component id="riel_komiss_1" alignment="1" min="-2" pref="157" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="riel_komiss_1_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="riel_komiss_1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="riel_komiss_2_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="riel_komiss_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="riel_komiss_3_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="riel_komiss_3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="56" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="riel_komiss_1_text">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#x42d;&#x43a;&#x441;&#x43f;&#x435;&#x440;&#x442;&#x43d;&#x430;&#x44f; &#x43e;&#x446;&#x435;&#x43d;&#x43a;&#x430; &#x43d;&#x435;&#x434;&#x432;&#x438;&#x436;&#x438;&#x43c;"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="riel_komiss_2_text">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#x41a;&#x43e;&#x43d;&#x441;&#x443;&#x43b;&#x44c;&#x442;. &#x438; &#x43e;&#x444;&#x43e;&#x440;&#x43c;&#x43b;. &#x434;&#x43e;&#x43a;&#x443;&#x43c;&#x435;&#x43d;&#x442;"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="riel_komiss_3_text">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#x420;&#x435;&#x433;&#x438;&#x441;&#x442;&#x440;&#x430;&#x446;&#x438;&#x44f; &#x434;&#x43e;&#x433;&#x43e;&#x432;&#x43e;&#x440;&#x430; &#x432; &#x411;&#x422;&#x418;"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="riel_komiss_2">
+                      <Properties>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="riel_komiss_1">
+                      <Properties>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="riel_komiss_3">
+                      <Properties>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel19">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x41f;&#x435;&#x440;&#x435;&#x43f;&#x43b;&#x430;&#x442;&#x430;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="pereplata">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                  <Format format="#,##0.00" subtype="-1" type="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="0,00"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="7" rowCount="0">
+                <Column editable="false" title="&#x414;&#x430;&#x442;&#x430;" type="java.lang.Object"/>
+                <Column editable="false" title="&#x414;&#x43e;&#x43b;&#x433;" type="java.lang.Object"/>
+                <Column editable="false" title="&#x41f;&#x43b;&#x430;&#x442;.%" type="java.lang.Object"/>
+                <Column editable="false" title="&#x41f;&#x43b;&#x430;&#x442;.&#x442;&#x435;&#x43b;&#x43e;" type="java.lang.Object"/>
+                <Column editable="false" title="&#x41f;&#x435;&#x440;&#x435;&#x43f;&#x43b;&#x430;&#x442;&#x430;" type="java.lang.Object"/>
+                <Column editable="false" title="&#x41f;&#x43b;&#x430;&#x442;.&#x434;&#x43e;&#x43f;." type="java.lang.Object"/>
+                <Column editable="false" title="&#x418;&#x442;&#x43e;&#x433;&#x43e;" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="false" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x422;&#x438;&#x43f; &#x440;&#x430;&#x441;&#x447;&#x435;&#x442;&#x430;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="type_rasch">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="type_raschActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel10">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabel20" max="32767" attributes="0"/>
+                              <Component id="jLabel32" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jButton_update" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jButton_ini_file" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jButton_ExportCSV" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jButton_calc" min="-2" pref="285" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="5" pref="5" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jButton_ini_file" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton_update" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel32" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButton_calc" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton_ExportCSV" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jButton_calc">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x420;&#x430;&#x441;&#x447;&#x438;&#x442;&#x430;&#x442;&#x44c;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_calcActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_ini_file">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="XML &#x444;&#x430;&#x439;&#x43b;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_ini_fileActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_update">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x41e;&#x431;&#x43d;&#x43e;&#x432;&#x438;&#x442;&#x44c;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_updateActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel20">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="%S - % &#x441; &#x441;&#x443;&#x43c;&#x43c;&#x44b; &#x43a;&#x440;&#x435;&#x434;&#x438;&#x442;&#x430;, %F - % &#x43e;&#x442; &#x441;&#x442;&#x43e;&#x438;&#x43c;&#x43e;&#x441;&#x442;&#x438; &#x43a;&#x432;&#x430;&#x440;&#x442;&#x438;&#x440;&#x44b;" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel32">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="%YEAR - &#x435;&#x436;&#x435;&#x433;&#x43e;&#x434;&#x43d;&#x43e;, %MONTH - &#x435;&#x436;&#x435;&#x43c;&#x435;&#x441;&#x44f;&#x447;&#x43d;&#x43e;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_ExportCSV">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x42d;&#x43a;&#x441;&#x43f;&#x43e;&#x440;&#x442; &#x432; CSV"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_ExportCSVActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
