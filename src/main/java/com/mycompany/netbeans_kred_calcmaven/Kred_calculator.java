@@ -1712,8 +1712,7 @@ public class Kred_calculator extends javax.swing.JFrame {
         this.srok_kred_year_new.setValue(getObjectFloatNaN(this.srok_kred_new.getValue()) / 12);
         
                         
-        } catch (Exception e) {
-             e.printStackTrace();
+        } catch (IOException | NumberFormatException | ParserConfigurationException | DOMException | SAXException e) {
              MessageBoxError(e.toString(), "");
           }
     }
