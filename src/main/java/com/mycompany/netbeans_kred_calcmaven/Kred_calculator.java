@@ -2188,13 +2188,17 @@ public class Kred_calculator extends javax.swing.JFrame {
 		{                    
                     if (null != m_type_annuitet) // Расчитываем процентную ставку выраженную в долях
                     switch (m_type_annuitet) {
-                        case "30/360":
-                            zc = 30; zn = 360; break;
-                        case "факт/360":
-                            zc = LastDayOfMonth(d_date); zn = 360; break;
-                        case "факт/факт":
-                            zc = LastDayOfMonth(d_date); zn = KolDayOfYear(d_date); break;
-                        default: break;
+                        case "30/360" -> {
+                            zc = 30; zn = 360;
+                        }
+                        case "факт/360" -> {
+                            zc = LastDayOfMonth(d_date); zn = 360;
+                        }
+                        case "факт/факт" -> {
+                            zc = LastDayOfMonth(d_date); zn = KolDayOfYear(d_date);
+                        }
+                        default -> {
+                        }
                     }                    
 
                     // льготная
@@ -2569,7 +2573,7 @@ public class Kred_calculator extends javax.swing.JFrame {
         // FileNameFilter implementation
 	public static class MyFileNameFilter implements FilenameFilter 
         {
-		private String ext;
+		private final String ext;
 		public MyFileNameFilter(String ext) {
 			this.ext = ext.toLowerCase();
 		}
