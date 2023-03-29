@@ -1,10 +1,10 @@
-# Kred-calcSwing-Java-19-Maven
-Maven Java 19 Swing NetBeans project - Credit calculator (real estate, auto) (annuity, the classics)
+# Kred-calcSwing-Java-20-Maven
+Maven Java 20 Swing NetBeans project - Credit calculator (real estate, auto) (annuity, the classics)
 
 Отправка в Github
 ---------------------------------------------------------------------------------
 
-В Github создаем в public repository - Kred-calcSwing-Java-19-Maven
+В Github создаем в public repository - Kred-calcSwing-Java-20-Maven
 - Генерируем токен:
   - В Github -> Profile -> Developer settings (https://github.com/settings/apps) -> Personal access tokens -> Generate new token
     - Note - Netbeans
@@ -15,11 +15,11 @@ Maven Java 19 Swing NetBeans project - Credit calculator (real estate, auto) (an
   - Копируем ключ (пример: ghp_****************************)
 
 В Netbeans:
--> Team -> Git -> Initialize repository
+-> Team -> Git -> Initialize repository (если еще не создан)
 -> Team -> Commit
 -> Team -> Remote -> Push
    - Specify Git Repository Location
-     - URL: https://github.com/LiaArtem/Kred-calcSwing-Java-19-Maven.git
+     - URL: https://github.com/LiaArtem/Kred-calcSwing-Java-20-Maven.git
      - User: git
      - Password: ghp_****************************
    Next
