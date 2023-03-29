@@ -18,10 +18,10 @@ Maven Java 20 Swing NetBeans project - Credit calculator (real estate, auto) (an
   - -> Team -> Git -> Initialize repository (если еще не создан)
   - -> Team -> Commit
   - -> Team -> Remote -> Push
-   - Specify Git Repository Location
-     - URL: https://github.com/LiaArtem/Kred-calcSwing-Java-20-Maven.git
-     - User: git
-     - Password: ghp_****************************
-   Next
-   - master -> master  (Next)
-   - master -> origin/master  (Finish)
+    - Specify Git Repository Location
+        - URL: https://github.com/LiaArtem/Kred-calcSwing-Java-20-Maven.git
+        - User: git
+        - Password: ghp_****************************
+        Next
+        - master -> master  (Next)
+        - master -> origin/master  (Finish)
