@@ -2284,7 +2284,7 @@ public class Kred_calculator extends javax.swing.JFrame {
                     d_date = Date.from(localDateTime.atZone(ZoneId.systemDefault()).toInstant());                                        
                     //                    
                     n_pr = n_pr + pr;
-                    n_ob = n_ob + calc_sum_cred + pr + m_sum_one + sum_pereplata;
+                    n_ob = n_ob + calc_sum_cred + pr + m_sum_one + sum_pereplata + sum_year + sum_month;
                     n_cred = n_cred + calc_sum_cred;
                     n_perepl = n_perepl + sum_pereplata;
                     summ_dop = summ_dop + m_sum_one + sum_year + sum_month;
@@ -2457,7 +2457,7 @@ public class Kred_calculator extends javax.swing.JFrame {
                     d_date = Date.from(localDateTime.atZone(ZoneId.systemDefault()).toInstant());                                        
                     //
                     n_pr = n_pr + pr;
-                    n_ob = n_ob + calc_sum_cred + pr + m_sum_one + sum_pereplata;
+                    n_ob = n_ob + calc_sum_cred + pr + m_sum_one + sum_pereplata + sum_year + sum_month;
                     n_cred = n_cred + calc_sum_cred;
                     n_perepl = n_perepl + sum_pereplata;
                     summ_dop = summ_dop + m_sum_one + sum_year + sum_month;
