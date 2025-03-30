@@ -1,10 +1,10 @@
-# Kred-calcSwing-Java-23-Maven
-Maven Java 23 Swing NetBeans project - Credit calculator (real estate, auto) (annuity, the classics)
+# Kred-calcSwing-Java-24-Maven
+Maven Java 24 Swing NetBeans project - Credit calculator (real estate, auto) (annuity, the classics)
 
 Відправка до Github
 ---------------------------------------------------------------------------------
 
-У Github створюємо в public repository - Kred-calcSwing-Java-23-Maven
+У Github створюємо в public repository - Kred-calcSwing-Java-24-Maven
 - Генеруємо токен:
   - У Github -> Profile -> Settings -> Developer settings (https://github.com/settings/apps) -> Personal access tokens -> Generate new token
     - Note - Netbeans
@@ -19,7 +19,7 @@ Maven Java 23 Swing NetBeans project - Credit calculator (real estate, auto) (an
   - -> Team -> Commit
   - -> Team -> Remote -> Push
     - Specify Git Repository Location
-        - URL: https://github.com/LiaArtem/Kred-calcSwing-Java-23-Maven.git
+        - URL: https://github.com/LiaArtem/Kred-calcSwing-Java-24-Maven.git
         - User: git
         - Password: ghp_****************************
         - Next
